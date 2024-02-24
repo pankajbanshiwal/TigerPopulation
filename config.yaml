@@ -1,0 +1,32 @@
+DEV:
+  ENV: "development"
+  PORT: ":1008"
+  DATABASE_NAME: "defaultdb"
+  DATABASE_USERNAME: "avnadmin"
+  DATABASE_PASSWORD: "AVNS_WGafq03SnR5gimIW6hu"
+  DATABASE_PORT: 14682
+  DATABASE_SERVER_HOST: "pg-3945dfdf-pankaj92banshiwal-11a9.a.aivencloud.com"
+  USER_CONTEXT_KEY: "tigerMonitoring"
+  JWT_SECRET_KEY: "tigerMonitoring"
+
+STAGE:
+  ENV: "stage"
+  PORT: ":1008"
+  DATABASE_NAME: "defaultdb"
+  DATABASE_USERNAME: "avnadmin"
+  DATABASE_PASSWORD: "AVNS_WGafq03SnR5gimIW6hu"
+  DATABASE_PORT: 14682
+  DATABASE_SERVER_HOST: "pg-3945dfdf-pankaj92banshiwal-11a9.a.aivencloud.com"
+  USER_CONTEXT_KEY: "tigerMonitoring"
+  JWT_SECRET_KEY: "tigerMonitoring"
+
+LIVE:
+  ENV: "production"
+  PORT: ":1008"
+  DATABASE_NAME: "defaultdb"
+  DATABASE_USERNAME: "avnadmin"
+  DATABASE_PASSWORD: "AVNS_WGafq03SnR5gimIW6hu"
+  DATABASE_PORT: 14682
+  DATABASE_SERVER_HOST: "pg-3945dfdf-pankaj92banshiwal-11a9.a.aivencloud.com"
+  USER_CONTEXT_KEY: "tigerMonitoring"
+  JWT_SECRET_KEY: "tigerMonitoring"
