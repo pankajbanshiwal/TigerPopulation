@@ -9,6 +9,7 @@ DEV:
   USER_CONTEXT_KEY: "tigerMonitoring"
   JWT_SECRET_KEY: "tigerMonitoring"
 
+# for now just keeping dev creds
 STAGE:
   ENV: "stage"
   PORT: ":1008"
@@ -20,6 +21,7 @@ STAGE:
   USER_CONTEXT_KEY: "tigerMonitoring"
   JWT_SECRET_KEY: "tigerMonitoring"
 
+# for now just keeping dev creds
 LIVE:
   ENV: "production"
   PORT: ":1008"
