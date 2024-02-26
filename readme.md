@@ -50,8 +50,8 @@ for stop the docker image =>
 `docker ps`  // `docker stop < containerid >`
 
 # Limitations
-`$ Because of short deadline i have stored username password in plain text , we can use pgcrypto module to encrypt and store them safely 
-eg :-   crypt('password', gen_salt('salt_key'))`
+`$ Because of short deadline i have stored username password in plain text , we can use pgcrypto module to encrypt and store them safely eg :-   crypt('password', gen_salt('salt_key'))`
+
 `$ I have assumed sightings images to be uploaded by UI to cloud storage and image urls to be stored in back end`
 
 # APIs postman collection for testing -> import the collection to be able to test the APIs
