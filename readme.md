@@ -49,6 +49,11 @@ for run in locally after build the image =>
 for stop the docker image =>
 `docker ps`  // `docker stop < containerid >`
 
+# Limitations
+`$ Because of short deadline i have stored username password in plain text , we can use pgcrypto module to encrypt and store them safely 
+eg :-   crypt('password', gen_salt('salt_key'))`
+`$ I have assumed sightings images to be uploaded by UI to cloud storage and image urls to be stored in back end`
+
 # APIs postman collection for testing -> import the collection to be able to test the APIs
 `https://api.postman.com/collections/8163204-1c677a80-8783-444c-8d17-41034af4b538?access_key=PMAT-01HQDRNXNV1D67YYXVXKWFC5DB`
 
