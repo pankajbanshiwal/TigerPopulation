@@ -55,7 +55,7 @@ for stop the docker image =>
 `$ I have assumed sightings images to be uploaded by UI to cloud storage and image urls to be stored in back end`
 
 # APIs postman collection for testing -> import the collection to be able to test the APIs
-`https://api.postman.com/collections/8163204-1c677a80-8783-444c-8d17-41034af4b538?access_key=PMAT-01HQDRNXNV1D67YYXVXKWFC5DB`
+`https://api.postman.com/collections/8163204-1c677a80-8783-444c-8d17-41034af4b538?access_key=<postman_access_key>`
 
 # API Documention for UI developers to be consumed
 `https://documenter.getpostman.com/view/8163204/2sA2rCUhKu`
